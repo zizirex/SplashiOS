@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Splash" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dusk.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="nVy-DY-0j1">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="RYW-J6-9wi">
+                                <rect key="frame" x="104" y="85" width="168" height="225"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="idT-2H-K1l">
+                                <rect key="frame" x="112" y="502" width="150" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gWT-1z-rna">
+                                <rect key="frame" x="112" y="450" width="150" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hour Tech" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a7w-zs-YKk">
+                                <rect key="frame" x="111" y="354" width="153" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="a7w-zs-YKk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="111" id="6tg-TT-6Mv"/>
+                            <constraint firstItem="RYW-J6-9wi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="104" id="AqT-YJ-kat"/>
+                            <constraint firstItem="nVy-DY-0j1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Bkv-LH-Vws"/>
+                            <constraint firstItem="idT-2H-K1l" firstAttribute="top" secondItem="gWT-1z-rna" secondAttribute="bottom" constant="22" id="EeY-3s-U2h"/>
+                            <constraint firstItem="nVy-DY-0j1" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="PNV-5k-YkJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="a7w-zs-YKk" secondAttribute="trailing" constant="111" id="Vo8-4v-Aa3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gWT-1z-rna" secondAttribute="trailing" constant="113" id="ajT-SG-uwv"/>
+                            <constraint firstItem="nVy-DY-0j1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="cP0-Qa-rPA"/>
+                            <constraint firstItem="idT-2H-K1l" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="112" id="ePs-Jn-YtH"/>
+                            <constraint firstItem="RYW-J6-9wi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="65" id="f1b-WD-zJO"/>
+                            <constraint firstItem="nVy-DY-0j1" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="gWd-wq-bm4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="idT-2H-K1l" secondAttribute="trailing" constant="113" id="nQL-XE-C23"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RYW-J6-9wi" secondAttribute="trailing" constant="103" id="qQv-mP-Txc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="idT-2H-K1l" secondAttribute="bottom" constant="135" id="s7X-3c-420"/>
+                            <constraint firstItem="gWT-1z-rna" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="112" id="sXZ-d0-aID"/>
+                            <constraint firstItem="gWT-1z-rna" firstAttribute="top" secondItem="a7w-zs-YKk" secondAttribute="bottom" constant="54" id="tfF-rb-KaN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="bgIntro" destination="nVy-DY-0j1" id="88Z-3U-8Ss"/>
+                        <outlet property="emailTextView" destination="gWT-1z-rna" id="q24-Vd-Z6N"/>
+                        <outlet property="logo" destination="RYW-J6-9wi" id="qZs-oN-EHk"/>
+                        <outlet property="logoLabel" destination="a7w-zs-YKk" id="NXV-Cj-Xok"/>
+                        <outlet property="passTextView" destination="idT-2H-K1l" id="RIt-52-BpB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135.19999999999999" y="102.99850074962519"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="dusk.jpg" width="1000" height="563"/>
+        <image name="logo.jpeg" width="225" height="225"/>
+    </resources>
+</document>
